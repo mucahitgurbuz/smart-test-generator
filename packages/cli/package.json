@@ -14,7 +14,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@smart-test-gen/core": "^1.0.0",
+    "@mucahitgurbuz/smart-test-gen-core": "^1.0.0",
     "boxen": "^7.1.1",
     "chalk": "^5.3.0",
     "chokidar": "^3.5.0",
@@ -45,5 +45,17 @@
     "typescript"
   ],
   "author": "Mucahit Gurbuz",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mucahitgurbuz/smart-test-generator.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://github.com/mucahitgurbuz/smart-test-generator#readme",
+  "bugs": {
+    "url": "https://github.com/mucahitgurbuz/smart-test-generator/issues"
+  }
 }

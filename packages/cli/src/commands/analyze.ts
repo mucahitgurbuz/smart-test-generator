@@ -2,7 +2,7 @@ import * as fs from "fs-extra";
 import * as path from "path";
 import chalk from "chalk";
 import ora from "ora";
-import { CodeAnalyzer } from "@smart-test-gen/core";
+import { CodeAnalyzer } from "@mucahitgurbuz/smart-test-gen-core";
 
 export async function analyzeCommand(
   paths: string[] = ["src/"],

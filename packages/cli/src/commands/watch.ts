@@ -3,7 +3,7 @@ import * as path from "path";
 import chalk from "chalk";
 import ora from "ora";
 import chokidar from "chokidar";
-import { CodeAnalyzer, TestGenerator } from "@smart-test-gen/core";
+import { CodeAnalyzer, TestGenerator } from "@mucahitgurbuz/smart-test-gen-core";
 
 export async function watchCommand(options: any): Promise<void> {
   const spinner = ora("Starting file watcher...").start();

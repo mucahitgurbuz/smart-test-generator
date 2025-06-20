@@ -3,7 +3,7 @@ import * as path from "path";
 import inquirer from "inquirer";
 import chalk from "chalk";
 import ora from "ora";
-import { ProjectConfig } from "@smart-test-gen/core";
+import { ProjectConfig } from "@mucahitgurbuz/smart-test-gen-core";
 
 export async function initCommand(options: any): Promise<void> {
   const spinner = ora("Initializing Smart Test Generator...").start();
