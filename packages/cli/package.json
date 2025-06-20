@@ -1,0 +1,49 @@
+{
+  "name": "smart-test-gen",
+  "version": "1.0.0",
+  "description": "CLI for Smart Test Generator - AI-powered test generation",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "test-gen": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/cli.js",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@smart-test-gen/core": "^1.0.0",
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "chokidar": "^3.5.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.0",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^9.2.0",
+    "open": "^10.1.0",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.0",
+    "@types/inquirer": "^9.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.0"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "keywords": [
+    "testing",
+    "ai",
+    "cli",
+    "test-generation",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Mucahit Gurbuz",
+  "license": "MIT"
+}
